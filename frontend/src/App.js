@@ -15,11 +15,12 @@ function App() {
     <BrowserRouter>
     <AuthProvider>
       <Routes>
-        <Route index element={<HomePage />} />
-
+        <Route index element={<HomePage title="Django React Authentication" header="Made possible with jwt" />} />
+        <Route path="/protected" element={<ProtectedPage />}/>
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
-    
+        <Route path="navbar" element={<Navbar />} />
+      
       </Routes>
       </AuthProvider>
     </BrowserRouter>
