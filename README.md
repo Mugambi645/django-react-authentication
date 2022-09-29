@@ -1,6 +1,6 @@
 # django-react-authentication
 
-> Django-react authentication made possibly using django-rest framework and simplejwt.
+> Django-react authentication made possible with django-rest framework and simplejwt.
 > 
 > Built with react & Django
 
